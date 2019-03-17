@@ -229,7 +229,7 @@ class MPU9250
     float magCalibration[3] = {0, 0, 0}, magbias[3] = {0, 0, 0};
     // Bias corrections for gyro and accelerometer
     float gyroBias[3] = {0, 0, 0}, accelBias[3] = {0, 0, 0};
-    float SelfTest[6];
+    float selfTest[6];
     // Stores the 16-bit signed accelerometer sensor output
     int16_t accelCount[3];
     
